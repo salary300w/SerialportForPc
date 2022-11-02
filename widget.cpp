@@ -18,7 +18,7 @@ Widget::Widget(QWidget *parent) :
     ui->send_button->setEnabled(false);     //设置控件不可用
     ui->close_port->setEnabled(false);
 
-    this->setWindowIcon(QIcon(":/img/icon.png"));
+    this->setWindowIcon(QIcon(":/img/icon.ico"));
     this->setWindowTitle("Serialport tool");
     this->setFixedSize(550,500);
 
@@ -207,7 +207,7 @@ void Widget::paintEvent(QPaintEvent *)
 
     //显示校徽
     QPixmap pix;
-    pix.load(":/img/img1.png");
+    pix.load(":/img/Ecust.ico");
     pen.drawPixmap(this->width()-pix.width()*0.7,0,pix.width()*0.7,pix.height()*0.7,pix);
 
 }
