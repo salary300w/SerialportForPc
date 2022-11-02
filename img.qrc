@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/background.PNG</file>
+        <file>img/chengse.png</file>
+        <file>img/icon.png</file>
+        <file>img/img1.png</file>
+        <file>img/showbackground.png</file>
+    </qresource>
+</RCC>
